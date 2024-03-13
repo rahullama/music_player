@@ -127,7 +127,7 @@ class _LoginScreenState extends State<LoginScreen> with SingleTickerProviderStat
                           showCustomSnackBar(context, "Enter Email Id.");
                         } else if(_password.text.isEmpty){
                           showCustomSnackBar(context, "Enter Password.");
-                        } else if(Validator.validateEmail(_emailId.text.trim())){
+                        } else if(!Validator.validateEmail(_emailId.text.trim())){
                           showCustomSnackBar(context, "Invalid Email Id.");
                         } else {
                           login();
