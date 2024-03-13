@@ -44,7 +44,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCMFaX_aoB7rbI9sid7Sn_B_nnPHmKl-44',
+    apiKey: '',
     appId: '1:1042207002105:web:4ba48ea09c4d4dcdb28128',
     messagingSenderId: '1042207002105',
     projectId: 'musicplayer-441e7',
@@ -53,7 +53,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAMUcz25R7v4yvpnX4bj0FbU4ofSSLgqRk',
+    apiKey: '',
     appId: '1:1042207002105:android:0101ee1295cb34aeb28128',
     messagingSenderId: '1042207002105',
     projectId: 'musicplayer-441e7',
@@ -61,7 +61,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyApm5JTR8H0EArqagdA8dorKfIechms87k',
+    apiKey: '',
     appId: '1:1042207002105:ios:d525cd600ae6ec62b28128',
     messagingSenderId: '1042207002105',
     projectId: 'musicplayer-441e7',
@@ -70,7 +70,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyApm5JTR8H0EArqagdA8dorKfIechms87k',
+    apiKey: '',
     appId: '1:1042207002105:ios:d525cd600ae6ec62b28128',
     messagingSenderId: '1042207002105',
     projectId: 'musicplayer-441e7',
